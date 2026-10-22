@@ -1,0 +1,18 @@
+# OpenTofu
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+*.tfbackup
+.tofulock.migration
+
+# Lock files: keep committed? For shared modules yes; for lessons, ignore to reduce noise
+.terraform.lock.hcl
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+
+# Local overrides
+tofu.override
